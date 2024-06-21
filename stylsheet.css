@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+
+.key button{
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 500;
+   border: none;
+   border-radius: 25%;
+   background-color: rgba(255, 255, 255, 0.596);
+   cursor: pointer;
+}
+.key{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 10px;
+    margin: 2rem;
+    margin-right: -1rem;
+    
+}
+.cal {
+    width: 100%;
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+    overflow: hidden;
+    background: linear-gradient(#e66465, #9198e5);
+}
+input{
+    width: 22rem;
+    padding: 15px;
+    margin-right: 4rem;
+    font-size: 1rem;
+    border: none;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+button:hover{
+    background-color: #9198e5;
+}
+button:active{
+    background-color: #c2c5eb;
+}
